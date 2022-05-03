@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgBlue"
+        android:orientation="vertical"
+        android:paddingBottom="50sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/complete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="VISIT UIUC MASK RECYCLING CENTER"
+                android:textColor="@color/white"
+                android:fontFamily="@font/lemon_milk"
+                android:textSize="40sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:scrollbarSize="4dp"
+                android:text="Drop off your old masks\n\nReady to throw away your used disposable masks (e.g., allergy, medical, N95)? Approximately 50 collection boxes are available on campus to help you recycle these types of face coverings. Simply put the masks in a sealed bag, place the bag into the box, and then sanitize or wash your hands after completing the drop-off."
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:paddingLeft="30sp">
+            </TextView>
+
+        <TextView
+            android:id="@+id/customer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="+25 XP"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lemon_milk"
+            android:textSize="40sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Completed Task">
+            </Button>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

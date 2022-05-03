@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="@color/bgBlue">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="top">
+
+            <!-- Title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="top"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:id="@+id/title"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/lemon_milk"
+                    android:gravity="center"
+                    android:text="Community"
+                    android:textColor="@android:color/white"
+                    android:textSize="15pt"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/world_leader"></ImageView>
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lemon_milk"
+                        android:gravity="center"
+                        android:text="World Leaderboard\n 1.Guild A\n 2.Guild b\n 3.Guild C"
+                        android:textColor="@color/white"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/uiuc_i"></ImageView>
+
+                    <TextView
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lemon_milk"
+                        android:gravity="center"
+                        android:text="Local Leaderboard\n 1.Guild A\n 2.Guild b\n 3.Guild C"
+                        android:textColor="@color/white"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="350dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mask_news"></ImageView>
+
+                        <TextView
+                            android:layout_width="350dp"
+                            android:layout_height="50dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="User123 completed task visit mask recycling">
+                        </TextView>
+
+                        <ImageView
+                            android:layout_width="360dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mask_news"></ImageView>
+
+                        <TextView
+                            android:layout_width="360dp"
+                            android:layout_height="50dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="User123 completed task visit mask recycling">
+                        </TextView>
+                        <ImageView
+                            android:layout_width="400dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mask_news"></ImageView>
+
+                        <TextView
+                            android:layout_width="400dp"
+                            android:layout_height="50dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:text="User123 completed task visit mask recycling">
+                        </TextView>
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+</FrameLayout>
+
+
